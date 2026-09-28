@@ -15,9 +15,18 @@ mlruns/
 # Jupyter
 .ipynb_checkpoints/
 
+
 # Environment
 .env
 
 # IDE
 .vscode/
 .idea/
+.venv-feast/                                                              
+
+
+# MLflow
+.venv-mlflow/
+mlflow.db
+mlartifacts/
+confusion_matrix_*.png
